@@ -31,4 +31,12 @@ area = length * width
 # Print the result
 print(f"The area of the rectangle with length {length} and width {width} is {area}.")
 
+# calculates the square of a number
+def square(number):
+    return number ** 2
+
+result = square(5)
+print("The square of 5 is", result)
+
+
 
