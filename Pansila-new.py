@@ -8,6 +8,18 @@ centimeters = meters * 100
 # Print the result
 print(f"{meters} meters is equal to {centimeters} centimeters.")
 
+
+# code to convert milliliters into liters
+# Input from the user in milliliters
+milliliters = float(input("Enter the volume in milliliters: "))
+
+# Convert milliliters to liters
+liters = milliliters / 1000
+
+# Print the result
+print(f"{milliliters} milliliters is equal to {liters} liters.")
+
+
 # code to calculate the area of a rectangle based on user input for its length and width
 # Input from the user for length and width
 length = float(input("Enter the length of the rectangle: "))
@@ -18,3 +30,5 @@ area = length * width
 
 # Print the result
 print(f"The area of the rectangle with length {length} and width {width} is {area}.")
+
+
