@@ -31,12 +31,28 @@ area = length * width
 # Print the result
 print(f"The area of the rectangle with length {length} and width {width} is {area}.")
 
-# calculates the square of a number
+
+#calculates the square of a number
 def square(number):
     return number ** 2
 
 result = square(5)
 print("The square of 5 is", result)
+
+
+#calculates the sum of numbers from 1 to a user-defined number
+# Get the user's input for the number
+number = int(input("Enter a positive integer: "))
+
+# Initialize a variable to store the sum
+total = 0
+
+# Calculate the sum of numbers from 1 to the user-defined number
+for i in range(1, number + 1):
+    total += i
+
+print(f"The sum of numbers from 1 to {number} is {total}")
+
 
 
 
